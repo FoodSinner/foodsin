@@ -59,7 +59,7 @@ summarylength = 25
   # Navbar Action Button
   [params.navAction]
     status  = true
-    name    = "Get in touch"
+    name    = "Subscribe"
     url     = "contact"
   
 
