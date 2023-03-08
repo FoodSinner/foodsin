@@ -67,7 +67,7 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "We’re a Design Studio That Belies In the Great Ideas"
+    heading               = "A Sinfully Delicious Journey Awaits"
     tagline               = "WE WORK HARD, WE PLAY HARD"
     primary_button        = "See Our Works"
     primary_button_url    = "portfolio"
