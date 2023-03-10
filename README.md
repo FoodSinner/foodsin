@@ -1,0 +1,1 @@
+npx tinacms dev -c "hugo server -D --navigateToChanged"
