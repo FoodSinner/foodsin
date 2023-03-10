@@ -1,6 +1,6 @@
-baseURL       = "http://example.org/"
+baseURL       = "https://www.foodsin.org/"
 languageCode  = "en-us"
-title         = "Roxo | Creative Design Agency"
+title         = "FoodSin"
 theme         = "roxo-hugo"
 summarylength = 25
 
@@ -67,7 +67,7 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "We’re a Design Studio That Belies In the Great Ideas"
+    heading               = "Wthis that sdc l"
     tagline               = "WE WORK HARD, WE PLAY HARD"
     primary_button        = "See Our Works"
     primary_button_url    = "portfolio"
