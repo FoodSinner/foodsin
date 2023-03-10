@@ -25,8 +25,56 @@ export default defineConfig({
   schema: {
     collections: [
       {
+        name: "portfolio", 
+        label: "Portfolio",
+        path: "content/portfolio",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "datetime", 
+            name: "date", 
+            label: "Date", 
+          },
+          {
+            type: "string", 
+            name: "type", 
+            label: "type", 
+          },
+          {
+            type: "image", 
+            name: "image", 
+            label: "Image", 
+          },
+          {
+            type: "string", 
+            name: "category", 
+            label: "Categories", 
+            list: true,
+          },
+          {
+            type: "image", 
+            name: "project_images", 
+            label: "Project Images", 
+            list: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+
+        ]
+      },
+      {
         name: "post",
-        label: "Posts",
+        label: "Posters",
         path: "content/posts",
         fields: [
           {
