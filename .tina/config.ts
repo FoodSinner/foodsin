@@ -29,6 +29,7 @@ export default defineConfig({
         name: "portfolio", 
         label: "Portfolio",
         path: "content/portfolio",
+        format: 'md',
         fields: [
           {
             type: "string",
@@ -77,6 +78,7 @@ export default defineConfig({
         name: "post",
         label: "Posters",
         path: "content/posts",
+        format: 'md',
         fields: [
           {
             type: "string",
