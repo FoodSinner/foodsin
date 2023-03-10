@@ -7,10 +7,10 @@ summarylength = 25
 # Site Menus
 [menu]
   # Navbar Menus
-  [[menu.nav]]
-    name    = "Home"
-    url     = ""
-    weight  = 1
+  #[[menu.nav]]
+  #  name    = "Home"
+  #  url     = ""
+  #  weight  = 1
   [[menu.nav]]
     name    = "About"
     url     = "about"
@@ -33,8 +33,8 @@ summarylength = 25
   logo = "images/logo.png"
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
-  author = "StaticMania"
+  description = "FoodSin | Hitchhike With Your Stomach!"
+  author = "@SinnerFood"
   # Google Analitycs
   googleAnalitycsID = "G-SF48WM4GHK"
   # We're using formspree.io for form handling, paste your formspree url below
@@ -113,19 +113,19 @@ summarylength = 25
       # Footer Social Media
       [params.footer.social]
         title   = "Social Media"
+        #[[params.footer.social.link]]
+        #  name = "Medium"
+        #  url  = "#"
         [[params.footer.social.link]]
-          name = "Medium"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Behance"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Dribbble"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Instagram"
-          url  = "#"
+          name = "Twitter"
+          url  = "https://twitter.com/SinnerFood"
+        #[[params.footer.social.link]]
+        #  name = "Dribbble"
+        #  url  = "#"
+        #[[params.footer.social.link]]
+        #  name = "Instagram"
+        #  url  = "#"
       # Footer Service
       [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+        title       = "Never Forget to Bring"
+        description = "EPIPEN&#174;<br>AlkaSeltzer&#174;<br>PEPCID&#174;<br>Milk of Magnesia&#174;<br>Pepto-Bismol&#174;"
