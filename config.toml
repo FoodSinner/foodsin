@@ -1,4 +1,4 @@
-baseURL       = "https://www.foodsin.org/"
+baseURL       = "https://foodsinner.github.io/foodsin"
 languageCode  = "en-us"
 title         = "FoodSin"
 theme         = "roxo-hugo"
