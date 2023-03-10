@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tinacms dev -c \"hugo server -D --navigateToChanged -p 6969\"",
+    "dev": "npx tinacms dev --port 7000 -c \"hugo server -D --navigateToChanged -p 6969\"",
+    "host": "npx tinacms dev -v -c \"hugo server -D --navigateToChanged -p 6969\"",
     "build": "npx tinacms build && hugo"
   },
   "keywords": [],
