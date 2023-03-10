@@ -1,1 +1,1 @@
-npx tinacms dev -c "hugo server -D --navigateToChanged"
+npx tinacms dev -c "hugo server -D --navigateToChanged -p 6969"
