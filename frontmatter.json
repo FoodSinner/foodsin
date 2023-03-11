@@ -83,7 +83,8 @@
         {
           "title": "Author",
           "name": "author",
-          "type": "string"
+          "type": "string", 
+          "single": true
         }
       ]
     }
