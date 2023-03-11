@@ -51,12 +51,6 @@
           "type": "categories"
         },
         {
-          "title": "Type",
-          "name": "type",
-          "type": "string",
-          "hidden": true
-        },
-        {
           "title": "Image",
           "name": "image",
           "type": "string",
@@ -90,13 +84,6 @@
           "title": "Author",
           "name": "author",
           "type": "string"
-        },
-        {
-          "title": "Type",
-          "name": "type",
-          "type": "string",
-          "default": "blog-post",
-          "hidden": true
         }
       ]
     }
@@ -118,8 +105,10 @@
     {
       "title": "blog",
       "path": "[[workspace]]/content/blog",
-      "originalPath": "[[workspace]]/content/blog", 
-      "contentTypes": ["blog"]
+      "originalPath": "[[workspace]]/content/blog",
+      "contentTypes": [
+        "blog"
+      ]
     },
     {
       "title": "contact",
@@ -130,6 +119,10 @@
       "title": "portfolio",
       "path": "[[workspace]]/content/portfolio",
       "originalPath": "[[workspace]]/content/portfolio"
+    },
+    {
+      "title": "blog",
+      "path": "[[workspace]]/content/blog"
     }
   ],
   "frontMatter.taxonomy.tags": [],
