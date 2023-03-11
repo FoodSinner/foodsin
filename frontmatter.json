@@ -61,7 +61,6 @@
     {
       "name": "blog",
       "pageBundle": false,
-      "previewPath": null,
       "fields": [
         {
           "title": "Post Title",
