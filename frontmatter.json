@@ -1,5 +1,6 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.content.wysiwyg": false,
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
@@ -22,6 +23,12 @@
           "type": "datetime",
           "default": "{{now}}",
           "isPublishDate": true
+        },
+        {
+          "title": "Last modified date",
+          "name": "lastmod",
+          "type": "datetime",
+          "isModifiedDate": true
         },
         {
           "title": "Content Preview",
@@ -52,12 +59,13 @@
         {
           "title": "Image",
           "name": "image",
-          "type": "string"
+          "type": "string",
+          "single": true
         }
       ]
     },
     {
-      "name": "blog-post",
+      "name": "blog",
       "pageBundle": false,
       "previewPath": null,
       "fields": [
@@ -69,12 +77,14 @@
         {
           "title": "Image",
           "name": "image",
-          "type": "string"
+          "type": "string",
+          "single": true
         },
         {
           "title": "Feature Image",
           "name": "feature_image",
-          "type": "string"
+          "type": "string",
+          "single": true
         },
         {
           "title": "Author",
@@ -82,7 +92,8 @@
           "type": "string"
         },
         {
-          "name": "Type",
+          "title": "Type",
+          "name": "type",
           "type": "string",
           "default": "blog-post",
           "hidden": true
@@ -107,7 +118,8 @@
     {
       "title": "blog",
       "path": "[[workspace]]/content/blog",
-      "originalPath": "[[workspace]]/content/blog"
+      "originalPath": "[[workspace]]/content/blog", 
+      "contentTypes": ["blog"]
     },
     {
       "title": "contact",
