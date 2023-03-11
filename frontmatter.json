@@ -47,5 +47,34 @@
     }
   ],
   "frontMatter.framework.id": "hugo",
-  "frontMatter.content.publicFolder": "static"
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/content",
+      "title": "content",
+      "originalPath": "[[workspace]]/content"
+    },
+    {
+      "title": "about",
+      "path": "[[workspace]]/content/about",
+      "originalPath": "[[workspace]]/content/about"
+    },
+    {
+      "title": "blog",
+      "path": "[[workspace]]/content/blog",
+      "originalPath": "[[workspace]]/content/blog"
+    },
+    {
+      "title": "contact",
+      "path": "[[workspace]]/content/contact",
+      "originalPath": "[[workspace]]/content/contact"
+    },
+    {
+      "title": "portfolio",
+      "path": "[[workspace]]/content/portfolio",
+      "originalPath": "[[workspace]]/content/portfolio"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [],
+  "frontMatter.taxonomy.categories": []
 }
