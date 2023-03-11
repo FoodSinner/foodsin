@@ -47,6 +47,7 @@
     }
   ],
   "frontMatter.framework.id": "hugo",
+  "frontMatter.content.defaultFileType": "md",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.content.pageFolders": [
     {

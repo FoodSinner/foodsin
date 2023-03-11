@@ -1,8 +1,8 @@
 ---
 title: "About Us"
 date: 2018-07-12T18:19:33+06:00
-heading : "WE ARE ROXO DESIGN. AN AWARD-WINNING CREATIVE STUDIO IN FLORIDA."
-description : "We are specialized in developing forward-thinking brand identities, websites, illustration and animation for all types of customers. And we do this by bringing our customers through each phase of the design process with us."
-expertise_title: "Expertise"
-expertise_sectors: ["Customer Experience Design", "Digital Products", "Development", "Campaign & Content", "Employer Branding", "Animation & Motion Graphics", "Packaging & Product Design", "Retail & Spacial", "Print & Editorial Design", "Concept/Text", "Information Design"]
+heading : "WE EXIST TO EAT"
+description : "Don't be afraid to open the door to new experiences and flavors. How many will be on their deathbed cursing their younger self because they'll never know what antifreeze or pufferfish tastes like!"
+expertise_title: "Eating-Out Essentials"
+expertise_sectors: ["EPIPEN&#174;", "AlkaSeltzer&#174;", "PEPCID&#174;", "Milk of Magnesia&#174;", "Pepto-Bismol&#174;", "Wallet", "Keys", "Mace"]
 ---
