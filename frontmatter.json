@@ -40,7 +40,7 @@
         },
         {
           "title": "Categories",
-          "name": "categories",
+          "name": "category",
           "type": "categories"
         }
       ]
