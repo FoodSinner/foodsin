@@ -24,7 +24,7 @@
           "isPublishDate": true
         },
         {
-          "title": "Content preview",
+          "title": "Content Preview",
           "name": "preview",
           "type": "image"
         },
@@ -59,16 +59,12 @@
     {
       "name": "blog-post",
       "pageBundle": false,
+      "previewPath": null,
       "fields": [
         {
-          "title": "Title",
+          "title": "Post Title",
           "name": "title",
           "type": "string"
-        },
-        {
-          "title": "Date",
-          "name": "date",
-          "type": "datetime"
         },
         {
           "title": "Image",
@@ -76,7 +72,7 @@
           "type": "string"
         },
         {
-          "title": "feature_image",
+          "title": "Feature Image",
           "name": "feature_image",
           "type": "string"
         },
