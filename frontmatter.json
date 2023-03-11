@@ -42,6 +42,54 @@
           "title": "Categories",
           "name": "category",
           "type": "categories"
+        },
+        {
+          "title": "Type",
+          "name": "type",
+          "type": "string",
+          "hidden": true
+        },
+        {
+          "title": "Image",
+          "name": "image",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "blog-post",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "Image",
+          "name": "image",
+          "type": "string"
+        },
+        {
+          "title": "feature_image",
+          "name": "feature_image",
+          "type": "string"
+        },
+        {
+          "title": "Author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "name": "Type",
+          "type": "string",
+          "default": "blog-post",
+          "hidden": true
         }
       ]
     }
