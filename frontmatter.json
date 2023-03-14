@@ -198,15 +198,15 @@
           "single": true
         },
         {
-          "title": "Image",
+          "title": "Post Image",
           "name": "image",
-          "type": "string",
+          "type": "image",
           "single": true
         },
         {
-          "title": "Feature Image",
+          "title": "Banner Image",
           "name": "feature_image",
-          "type": "string",
+          "type": "image",
           "single": true
         },
         {
@@ -250,6 +250,7 @@
     {
       "title": "blog",
       "path": "[[workspace]]/content/blog",
+      "previewPath": "/{{fm.type}}/{{fm.slug}}",
       "contentTypes": [
         "blog"
       ]
