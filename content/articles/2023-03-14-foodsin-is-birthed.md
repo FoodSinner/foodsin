@@ -2,7 +2,13 @@
 Article Name: FoodSin.org is birthed forth!
 Publication Date: '2023-03-14T23:41:15'
 ---
-![Alt text](../../static/images/articles/people_cheering.jpeg)
+
+![Image of people rejoicing!](../../static/images/articles/people_cheering.jpeg)
+
+and this: 
+
+![Image of people rejoicing!](images/articles/people_cheering.jpeg)
+
 # Welcome fellow hedonists.
 
 You are home.
