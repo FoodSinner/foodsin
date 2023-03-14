@@ -1,4 +1,6 @@
 ---
+Article Name: FoodSin.org is birthed forth!
+Publication Date: '2023-03-14T23:41:15'
 ---
 
 # Welcome fellow hedonists.
