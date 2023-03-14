@@ -19,13 +19,11 @@
       "singleEntry": true
     }
   ],
-  "frontMatter.data.files": [
+  "frontMatter.data.types": [
     {
-      "title": "Authors",
       "id": "authors",
-      "file": "[[workspace]]/data/authors.json",
       "schema": {
-        "title": "Author",
+        "title": "Authors",
         "type": "object",
         "required": [
           "name",
