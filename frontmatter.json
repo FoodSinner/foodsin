@@ -67,6 +67,39 @@
           "single": true
         }
       ]
+    },{
+      "name": "page",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Page Title",
+          "name": "title",
+          "type": "string", 
+          "required": true
+        },
+        {
+          "title": "Written Date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "Heading",
+          "name": "heading",
+          "type": "string", 
+          "single": true
+        },
+        {
+          "title": "Type",
+          "name": "type",
+          "type": "taxonomy",
+          "taxonomyId": "validTypes",
+          "taxonomyLimit": 1,
+          "default": "page",
+          "hidden": true,
+          "editable": false,
+          "required": true
+        }
+      ]
     },
     {
       "name": "portfolio",
@@ -75,7 +108,8 @@
         {
           "title": "Article Title",
           "name": "title",
-          "type": "string"
+          "type": "string", 
+          "required": true
         },
         {
           "title": "Written Date",
@@ -85,7 +119,7 @@
         {
           "title": "Publishing Date",
           "name": "publish_date",
-          "type": "datetime", 
+          "type": "datetime",
           "isPublishDate": true
         },
         {
@@ -123,16 +157,23 @@
           "editable": false,
           "default": "{{slug}}",
           "hidden": true
+        },
+        {
+          "title": "Categories",
+          "name": "category",
+          "type": "categories"
         }
-      ]},
-      {
+      ]
+    },
+    {
       "name": "blog",
       "pageBundle": false,
       "fields": [
         {
           "title": "Post Title",
           "name": "title",
-          "type": "string"
+          "type": "string", 
+          "required": true
         },
         {
           "title": "Written Date",
@@ -142,7 +183,7 @@
         {
           "title": "Publishing Date",
           "name": "publish_date",
-          "type": "datetime", 
+          "type": "datetime",
           "isPublishDate": true
         },
         {
@@ -227,5 +268,5 @@
   "frontMatter.taxonomy.categories": [],
   "frontMatter.content.autoUpdateDate": false,
   "frontMatter.framework.startCommand": "hugo server -D --navigateToChanged -p 6969",
-  "frontMatter.preview.host": "http://localhost:6969/"
+  "frontMatter.preview.host": "http://localhost:6969/foodsin/"
 }
