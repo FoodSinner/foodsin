@@ -13,10 +13,10 @@
   ],
   "frontMatter.data.folders": [
     {
-      "id": "authors",
+      "id": "all-authors",
       "path": "[[workspace]]/data/authors",
-      "type": "author",
-      "singleEntry": true
+      "labelField": "name",
+      "type": "authors"
     }
   ],
   "frontMatter.data.types": [
@@ -40,8 +40,7 @@
           },
           "slug": {
             "title": "Slug",
-            "type": "string",
-            "single": true
+            "type": "string"
           }
         }
       }
