@@ -80,6 +80,7 @@
         {
           "title": "Written Date",
           "name": "date",
+          "hidden": true,
           "type": "datetime"
         },
         {
@@ -114,12 +115,14 @@
         {
           "title": "Written Date",
           "name": "date",
+          "hidden": true,
           "type": "datetime"
         },
         {
           "title": "Publishing Date",
           "name": "publish_date",
           "type": "datetime",
+          "hidden": true,
           "isPublishDate": true
         },
         {
@@ -178,12 +181,14 @@
         {
           "title": "Written Date",
           "name": "date",
+          "hidden": true,
           "type": "datetime"
         },
         {
           "title": "Publishing Date",
           "name": "publish_date",
           "type": "datetime",
+          "hidden": true,
           "isPublishDate": true
         },
         {
@@ -227,7 +232,7 @@
     }
   ],
   "frontMatter.framework.id": "hugo",
-  "frontMatter.file.preserveCasing": true,
+  "frontMatter.file.preserveCasing": false,
   "frontMatter.content.defaultFileType": ".md",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.content.pageFolders": [
