@@ -11,6 +11,38 @@
       ]
     }
   ],
+  "frontMatter.data.folders": [
+    
+  ],
+  "frontMatter.data.files": [
+    {
+      "title": "Authors",
+      "id": "authors",
+      "file": "[[workspace]]/data/authors.json",
+      "schema": {
+        "title": "Author",
+        "type": "object",
+        "required": [
+          "name",
+          "url"
+        ],
+        "properties": {
+          "slug": {
+            "title": "slug",
+            "type": "string"
+          },
+          "name": {
+            "title": "name",
+            "type": "string"
+          },
+          "url": {
+            "title": "url",
+            "type": "string"
+          }
+        }
+      }
+    }
+  ],
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
@@ -67,14 +99,15 @@
           "single": true
         }
       ]
-    },{
+    },
+    {
       "name": "page",
       "pageBundle": false,
       "fields": [
         {
           "title": "Page Title",
           "name": "title",
-          "type": "string", 
+          "type": "string",
           "required": true
         },
         {
@@ -86,7 +119,7 @@
         {
           "title": "Heading",
           "name": "heading",
-          "type": "string", 
+          "type": "string",
           "single": true
         },
         {
@@ -109,7 +142,7 @@
         {
           "title": "Article Title",
           "name": "title",
-          "type": "string", 
+          "type": "string",
           "required": true
         },
         {
@@ -175,7 +208,7 @@
         {
           "title": "Post Title",
           "name": "title",
-          "type": "string", 
+          "type": "string",
           "required": true
         },
         {
