@@ -12,7 +12,12 @@
     }
   ],
   "frontMatter.data.folders": [
-    
+    {
+      "id": "authors",
+      "path": "[[workspace]]/data/authors",
+      "type": "author",
+      "singleEntry": true
+    }
   ],
   "frontMatter.data.files": [
     {
@@ -27,17 +32,18 @@
           "url"
         ],
         "properties": {
-          "slug": {
-            "title": "slug",
-            "type": "string"
-          },
           "name": {
-            "title": "name",
+            "title": "Name",
             "type": "string"
           },
           "url": {
-            "title": "url",
+            "title": "URL",
             "type": "string"
+          },
+          "slug": {
+            "title": "Slug",
+            "type": "string",
+            "single": true
           }
         }
       }
