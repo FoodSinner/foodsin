@@ -5,6 +5,7 @@ image: "images/blog/blog-post-03.jpg"
 feature_image: "images/blog/blog-details-image.jpg"
 author: "Alexender Schoitiz"
 type: blog
+slug: pt-chooses-classic-blue-colour-year-2020
 ---
 ### Black Lines brand identity, by & Smith
 

@@ -1,6 +1,16 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.content.wysiwyg": false,
+  "frontMatter.taxonomy.customTaxonomy": [
+    {
+       "id": "validTypes", 
+       "options": [
+        "page", 
+        "blog", 
+        "portfolio"
+       ]
+    }
+  ],
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
@@ -68,6 +78,11 @@
           "type": "string"
         },
         {
+          "title": "Date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
           "title": "Image",
           "name": "image",
           "type": "string",
@@ -82,47 +97,54 @@
         {
           "title": "Author",
           "name": "author",
-          "type": "string", 
+          "type": "string",
           "single": true
+        },
+        {
+          "title": "Type",
+          "name": "type",
+          "type": "taxonomy",
+          "taxonomyId": "validTypes"
+        },
+        {
+          "title": "Page Slug", 
+          "name": "slug",
+          "editable": false,
+          "default": "{{slug}}",
+          "hidden": true
         }
       ]
     }
   ],
   "frontMatter.framework.id": "hugo",
-  "frontMatter.content.defaultFileType": "md",
+  "frontMatter.file.preserveCasing": true,
+  "frontMatter.content.defaultFileType": ".md",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.content.pageFolders": [
     {
       "path": "[[workspace]]/content",
-      "title": "content",
-      "originalPath": "[[workspace]]/content"
+      "title": "content"
     },
     {
       "title": "about",
       "path": "[[workspace]]/content/about",
-      "originalPath": "[[workspace]]/content/about"
+      "contentTypes": ["page"]
     },
     {
       "title": "blog",
       "path": "[[workspace]]/content/blog",
-      "originalPath": "[[workspace]]/content/blog",
-      "contentTypes": [
-        "blog"
-      ]
+      "contentTypes": ["blog"]
     },
     {
       "title": "contact",
       "path": "[[workspace]]/content/contact",
-      "originalPath": "[[workspace]]/content/contact"
+      "contentTypes": ["page"]
     },
     {
       "title": "portfolio",
       "path": "[[workspace]]/content/portfolio",
-      "originalPath": "[[workspace]]/content/portfolio"
-    },
-    {
-      "title": "blog",
-      "path": "[[workspace]]/content/blog"
+      "originalPath": "[[workspace]]/content/portfolio",
+      "contentTypes": ["portfolio"]
     }
   ],
   "frontMatter.taxonomy.tags": [],
