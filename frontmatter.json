@@ -69,6 +69,63 @@
       ]
     },
     {
+      "name": "portfolio",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Article Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Written Date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "Publishing Date",
+          "name": "publish_date",
+          "type": "datetime", 
+          "isPublishDate": true
+        },
+        {
+          "title": "Author",
+          "name": "author",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Image",
+          "name": "image",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Project Images",
+          "name": "project_images",
+          "type": "list"
+        },
+        {
+          "title": "Type",
+          "name": "type",
+          "type": "taxonomy",
+          "taxonomyId": "validTypes",
+          "taxonomyLimit": 1,
+          "default": "{{pathToken.3}}",
+          "hidden": true,
+          "editable": false,
+          "required": true
+        },
+        {
+          "title": "Page Slug",
+          "name": "slug",
+          "type": "string",
+          "editable": false,
+          "default": "{{slug}}",
+          "hidden": true
+        }
+      ]},
+      {
       "name": "blog",
       "pageBundle": false,
       "fields": [
@@ -78,9 +135,21 @@
           "type": "string"
         },
         {
-          "title": "Date",
+          "title": "Written Date",
           "name": "date",
           "type": "datetime"
+        },
+        {
+          "title": "Publishing Date",
+          "name": "publish_date",
+          "type": "datetime", 
+          "isPublishDate": true
+        },
+        {
+          "title": "Author",
+          "name": "author",
+          "type": "string",
+          "single": true
         },
         {
           "title": "Image",
@@ -95,20 +164,20 @@
           "single": true
         },
         {
-          "title": "Author",
-          "name": "author",
-          "type": "string",
-          "single": true
-        },
-        {
           "title": "Type",
           "name": "type",
           "type": "taxonomy",
-          "taxonomyId": "validTypes"
+          "taxonomyId": "validTypes",
+          "taxonomyLimit": 1,
+          "default": "{{pathToken.3}}",
+          "hidden": true,
+          "editable": false,
+          "required": true
         },
         {
           "title": "Page Slug",
           "name": "slug",
+          "type": "string",
           "editable": false,
           "default": "{{slug}}",
           "hidden": true
@@ -149,7 +218,6 @@
     {
       "title": "portfolio",
       "path": "[[workspace]]/content/portfolio",
-      "originalPath": "[[workspace]]/content/portfolio",
       "contentTypes": [
         "portfolio"
       ]
