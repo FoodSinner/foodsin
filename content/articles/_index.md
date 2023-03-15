@@ -1,3 +1,3 @@
 ---
-title: "The unabridged collection of FoodSin.org's articles:"
+title: "The unabridged article collection:"
 ---

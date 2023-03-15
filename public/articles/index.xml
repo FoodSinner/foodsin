@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The unabridged collection of FoodSin.org&#39;s articles: on FoodSin</title>
+    <title>The unabridged article collection: on FoodSin</title>
     <link>https://foodsinner.github.io/foodsin/articles/</link>
-    <description>Recent content in The unabridged collection of FoodSin.org&#39;s articles: on FoodSin</description>
+    <description>Recent content in The unabridged article collection: on FoodSin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Mar 2023 23:41:15 +0000</lastBuildDate><atom:link href="https://foodsinner.github.io/foodsin/articles/index.xml" rel="self" type="application/rss+xml" />
