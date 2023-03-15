@@ -1,9 +1,9 @@
 ---
-title: "American Veal"
-date: 2023-03-14T01:01:01
+title: "woman_rejoicing"
+date: 2023-03-14T01:05:01
 type: articles
-image: "images/articles/DonPie.jpeg"
-article_images: ["images/articles/DonPie.jpeg"]
+image: "images/articles/woman_rejoicing.jpeg"
+article_images: ["images/articles/woman_rejoicing.jpeg"]
 category: ["FOOD"]
 
 ---
@@ -12,11 +12,11 @@ category: ["FOOD"]
 # Welcome fellow hedonists.
 
 one
-![Image of people rejoicing!](images/articles/DonPie.jpeg)
+![Image of people rejoicing!](images/articles/woman_rejoicing.jpeg)
 
 
 two it's pie 
-![Image of people rejoicing 2!](../../static/images/articles/DonPie.jpeg)
+![Image of people rejoicing 2!](../../static/images/articles/woman_rejoicing.jpeg)
 
 
 You are home.
