@@ -2,8 +2,8 @@
 title: "American Veal"
 date: 2023-03-14T01:01:01
 type: articles
-image: "images/articles/DonPie.jpeg"
-article_images: ["images/articles/DonPie.jpeg"]
+image: "images/articles/DonPie.jpg"
+article_images: ["images/articles/DonPie.jpg"]
 category: ["FOOD"]
 
 ---
@@ -12,11 +12,11 @@ category: ["FOOD"]
 # Welcome fellow hedonists.
 
 one
-![Image of people rejoicing!](images/articles/DonPie.jpeg)
+![Image of people rejoicing!](images/articles/DonPie.jpg)
 
 
 two it's pie 
-![Image of people rejoicing 2!](../../static/images/articles/DonPie.jpeg)
+![Image of people rejoicing 2!](../../static/images/articles/DonPie.jpg)
 
 
 You are home.
