@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://foodsinner.github.io/foodsin/blog/design-inspiration-the-best-projects-from-december/</loc>
-    <lastmod>2019-12-24T13:45:06+06:00</lastmod>
-  </url><url>
     <loc>https://foodsinner.github.io/foodsin/</loc>
+    <lastmod>2023-03-14T23:41:15+00:00</lastmod>
+  </url><url>
+    <loc>https://foodsinner.github.io/foodsin/articles/2023-03-14-foodsin-is-birthed/</loc>
+    <lastmod>2023-03-14T23:41:15+00:00</lastmod>
+  </url><url>
+    <loc>https://foodsinner.github.io/foodsin/articles/</loc>
+    <lastmod>2023-03-14T23:41:15+00:00</lastmod>
+  </url><url>
+    <loc>https://foodsinner.github.io/foodsin/blog/design-inspiration-the-best-projects-from-december/</loc>
     <lastmod>2019-12-24T13:45:06+06:00</lastmod>
   </url><url>
     <loc>https://foodsinner.github.io/foodsin/blog/the-10-biggest-rebrands-and-logo-designs-of-2019/</loc>
@@ -47,12 +53,8 @@
     <loc>https://foodsinner.github.io/foodsin/about/</loc>
     <lastmod>2018-07-12T18:19:33+06:00</lastmod>
   </url><url>
-    <loc>https://foodsinner.github.io/foodsin/articles/2023-03-14-foodsin-is-birthed/</loc>
-  </url><url>
     <loc>https://foodsinner.github.io/foodsin/categories/</loc>
   </url><url>
     <loc>https://foodsinner.github.io/foodsin/tags/</loc>
-  </url><url>
-    <loc>https://foodsinner.github.io/foodsin/articles/</loc>
   </url>
 </urlset>
