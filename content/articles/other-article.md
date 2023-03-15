@@ -2,8 +2,8 @@
 title: "Article 3"
 date: 2023-03-14T01:05:01
 type: articles
-image: "images/articles/woman_rejoicing.jpeg"
-article_images: ["images/articles/woman_rejoicing.jpeg"]
+image: images/articles/woman_rejoicing.jpg
+article_images: ["images/articles/woman_rejoicing.jpg"]
 category: ["FOOD"]
 tags: []
 slug: article-3

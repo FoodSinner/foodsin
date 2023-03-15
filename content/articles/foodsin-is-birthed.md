@@ -1,9 +1,9 @@
 ---
-title: "FoodSin.org is birthed forth!"
+title: "FoodSin.org is born!"
 date: 2023-03-14T23:41:15
 type: articles
-image: "images/articles/people_cheering.jpeg"
-article_images: ["images/articles/woman_rejoicing.jpeg"]
+image: "images/articles/people_cheering_3_half.jpg"
+article_images: ["images/articles/woman_rejoicing.jpg"]
 category: ["SITE UPDATE"]
 tags: ["FOODSIN.ORG"]
 slug: foodsin-is-birthed

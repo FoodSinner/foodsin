@@ -1,3 +1,3 @@
 ---
-title: "The <span>unabridged history</span> of FoodSin.org's current and past <span>articles</span>"
+title: "The <span>unabridged collection</span> of past and current <span>articles</span>"
 ---
