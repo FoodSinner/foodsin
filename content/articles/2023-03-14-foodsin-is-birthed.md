@@ -1,6 +1,6 @@
 ---
 title: "FoodSin.org is birthed forth!"
-date: '2023-03-14T23:41:15'
+date: 2023-03-14T23:41:15
 type: articles
 image: "images/articles/people_cheering.jpeg"
 article_images: ["images/articles/woman_rejoicing.jpeg"]
@@ -8,9 +8,10 @@ category: ["SITE UPDATE"]
 
 ---
 
+# Welcome fellow hedonists.
+
 ![Image of people rejoicing!](../../static/images/articles/people_cheering.jpeg)
 
-and this: 
 
 ![Image of people rejoicing!](images/articles/people_cheering.jpeg)
 
