@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<section class="site-article-single-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="site-article-single">
+          <h1>
+            {{ .Title }}
+          </h1>
+          <div class="site-article-single-description">
+            {{ .Content }}
+          </div>
+          <div class="site-article-single-image">
+            {{ range .Params.article_images }}
+            <img src="{{ . | absURL }}" alt="article image">
+            {{ end }}
+          </div>
+          {{ if .NextInSection }}
+          <div class="site-project-single-action">
+            <a href="{{.NextInSection.Permalink}}">
+              <span class="link-area">
+                <span data-text="Next Article">
+                  Next Article
+                </span>
+              </span>
+              <img src="{{ "images/to-top.svg" | absURL }}" alt="next article">
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "call-to-action.html" . }}
+
+{{ end }}
