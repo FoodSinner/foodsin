@@ -5,8 +5,11 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: 
-      - dev
       - prod
+      - dev
+      - dev2
+      - dev3
+      - test
       
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -34,7 +37,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.111.2
+      env_var: ${{ vars.GITHUB_REF_NAME }}
+      env_var2: " ${{ vars.GITHUB_REF_NAME }} "
+      env_var3: "  $GITHUB_REF_NAME "
     steps:
+      - name: Log Environmental Variables
+        run: |
+          echo "($GITHUB_REF_NAME) $GITHUB_REF"
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
