@@ -3,16 +3,19 @@ title: "American Veal"
 date: 2023-03-15
 type: articles
 image: "images/articles/DonPie.jpeg"
-article_images: []
+article_images: ["images/articles/DonPie.jpeg"]
 category: ["United States", "Veal"]
 
 ---
 
 # Welcome fellow hedonists.
 
-![Image of people rejoicing!](../../static/images/articles/people_cheering.jpeg)
+one
+![Image of people rejoicing!](../../static/images/articles/DonPie.jpeg)
 
-![Image of people rejoicing!](images/articles/people_cheering.jpeg)
+
+two it's pie 
+![Image of people rejoicing!](images/articles/DonPie.jpeg)
 
 
 You are home.
