@@ -8,7 +8,13 @@
           <h1>
             {{ .Title }}
           </h1>
-          <img class="banner-image" src="{{ .Params.banner_image | absURL }}" alt="article-feature-image">
+          {{ if isset .Params "banner_image" }}
+            <img class="banner-image" src="{{ .Params.banner_image | absURL }}" alt="article-banner-image">
+          {{ else }}
+            <hr>
+          {{ end }}
+
+          <!-- <img class="banner-image" src="{{ .Params.banner_image | absURL }}" alt="article-feature-image"> -->
           <div class="site-article-single-description">
             {{ .Content }}
           </div>
