@@ -1,22 +1,19 @@
 ---
-title: "American Veal"
+title: "American Foie Gras"
 date: 2023-03-14T01:01:01
 type: articles
 image: "images/articles/DonPie.jpg"
 article_images: ["images/articles/DonPie.jpg"]
 category: ["FOOD"]
-
+tags: ["UNITED STATES", "VEAL"]
+slug: american-foie-gras
 ---
 
 <!-- tags  ["UNITED STATES", "VEAL"] -->
-# Welcome fellow hedonists.
+# Its foie gras
+
 
 one
-![Image of people rejoicing!](images/articles/DonPie.jpg)
-
-
-two it's pie 
-![Image of people rejoicing 2!](../../static/images/articles/DonPie.jpg)
 
 
 You are home.

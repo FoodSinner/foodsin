@@ -5,14 +5,11 @@ type: articles
 image: "images/articles/people_cheering.jpeg"
 article_images: ["images/articles/woman_rejoicing.jpeg"]
 category: ["SITE UPDATE"]
-
+tags: ["FOODSIN.ORG"]
+slug: foodsin-is-birthed
 ---
 
 # Welcome fellow hedonists.
-
-![Image of people rejoicing!](../../static/images/articles/people_cheering.jpeg)
-
-![Image of people rejoicing!](images/articles/people_cheering.jpeg)
 
 
 You are home.

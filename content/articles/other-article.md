@@ -1,22 +1,16 @@
 ---
-title: "woman_rejoicing"
+title: "Article 3"
 date: 2023-03-14T01:05:01
 type: articles
 image: "images/articles/woman_rejoicing.jpeg"
 article_images: ["images/articles/woman_rejoicing.jpeg"]
 category: ["FOOD"]
-
+tags: []
+slug: article-3
 ---
 
 <!-- tags  ["UNITED STATES", "VEAL"] -->
-# Welcome fellow hedonists.
-
-one
-![Image of people rejoicing!](images/articles/woman_rejoicing.jpeg)
-
-
-two it's pie 
-![Image of people rejoicing 2!](../../static/images/articles/woman_rejoicing.jpeg)
+# This is the third article
 
 
 You are home.
