@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://foodsinner.github.io/foodsin/</loc>
-    <lastmod>2023-03-14T23:41:15+00:00</lastmod>
+    <loc>https://foodsinner.github.io/foodsin/articles/american-veal/</loc>
+    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://foodsinner.github.io/foodsin/articles/2023-03-14-foodsin-is-birthed/</loc>
-    <lastmod>2023-03-14T23:41:15+00:00</lastmod>
+    <loc>https://foodsinner.github.io/foodsin/</loc>
+    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://foodsinner.github.io/foodsin/articles/</loc>
+    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://foodsinner.github.io/foodsin/articles/foodsin-is-birthed/</loc>
     <lastmod>2023-03-14T23:41:15+00:00</lastmod>
   </url><url>
     <loc>https://foodsinner.github.io/foodsin/blog/design-inspiration-the-best-projects-from-december/</loc>
